@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Silvio Índio | Churrasqueiro a Domicílio em Betim, Contagem e BH</title>
+  <meta name="description" content="Churrasqueiro profissional a domicílio e para eventos em Betim, Contagem e BH. Apenas mão de obra ou buffet completo. Simule seu orçamento em 30 segundos." />
+  <meta name="theme-color" content="#131313" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔥</text></svg>" />
+
+  <!-- Prévia ao compartilhar o link (WhatsApp, Instagram, Facebook) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Silvio Índio | Churrasqueiro a Domicílio em Betim, Contagem e BH" />
+  <meta property="og:description" content="Curta a sua festa como convidado. Mão de obra ou buffet de churrasco completo. Simule seu orçamento em 30 segundos." />
+  <meta property="og:image" content="midia/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preload" as="image" href="midia/hero-grelha.jpg" fetchpriority="high" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodService",
+    "name": "Silvio Índio | Churrasqueiro Profissional",
+    "image": "midia/og-image.jpg",
+    "priceRange": "$$",
+    "areaServed": ["Betim", "Contagem", "Belo Horizonte", "Região Metropolitana de BH"],
+    "address": { "@type": "PostalAddress", "addressLocality": "Betim", "addressRegion": "MG", "addressCountry": "BR" },
+    "servesCuisine": "Churrasco"
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            charred: { DEFAULT: '#131313', 700: '#2d2d2d', 500: '#717171', 300: '#a1a1a1' },
+            smoke: { 50: '#faf9f7', 100: '#f6f4f0', 300: '#f1eee9', 700: '#e9e6e0', 900: '#d9d4cb' },
+            ember: { DEFAULT: '#c2410c', 600: '#ea580c', 400: '#f59e0b' }
+          },
+          fontFamily: {
+            display: ['Archivo', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif']
+          },
+          borderRadius: { btn: '4px' },
+          keyframes: {
+            pulseRing: { '0%': { transform: 'scale(1)', opacity: '.55' }, '100%': { transform: 'scale(1.7)', opacity: '0' } }
+          },
+          animation: { pulseRing: 'pulseRing 2s cubic-bezier(0.4,0,0.6,1) infinite' }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+
+  <style>
+    body { background: #fff; color: #131313; -webkit-tap-highlight-color: transparent; }
+    .h-xl { font-family: 'Archivo', sans-serif; font-weight: 800; line-height: .96; letter-spacing: -.01em; }
+    .h-l  { font-family: 'Archivo', sans-serif; font-weight: 800; line-height: 1.05; letter-spacing: -.005em; }
+    .h-s  { font-family: 'Archivo', sans-serif; font-weight: 700; line-height: 1.15; letter-spacing: .01em; }
+    .eyebrow { font-family: 'Archivo', sans-serif; font-weight: 700; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; }
+
+    .btn { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; min-height: 48px; padding: .85rem 1.5rem; border-radius: 4px; font-family: 'Archivo', sans-serif; font-weight: 800; font-size: 15px; letter-spacing: .02em; line-height: 1; white-space: nowrap; transition: all .15s linear; border: 1px solid transparent; cursor: pointer; user-select: none; }
+    .btn-primary { background: #131313; color: #fff; border-color: #131313; }
+    .btn-primary:hover { background: #2d2d2d; border-color: #2d2d2d; }
+    .btn-secondary { background: #fff; color: #131313; border-color: #717171; }
+    .btn-secondary:hover { border-color: #131313; background: #faf9f7; }
+    .btn-light { background: #fff; color: #131313; border-color: #fff; }
+    .btn-light:hover { background: #f1eee9; border-color: #f1eee9; }
+    .btn-ghost-light { background: transparent; color: #fff; border-color: rgba(255,255,255,.7); }
+    .btn-ghost-light:hover { background: rgba(255,255,255,.1); border-color: #fff; }
+    .btn-whats { background: #25D366; color: #0b0b0b; border-color: #25D366; }
+    .btn-whats:hover { background: #1ebe5b; border-color: #1ebe5b; }
+    .btn-sm { min-height: 38px; padding: .6rem 1rem; font-size: 14px; }
+
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    input[type=range] { -webkit-appearance: none; appearance: none; width: 100%; height: 4px; border-radius: 9999px; background: #e9e6e0; outline: none; }
+    input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 22px; height: 22px; border-radius: 50%; background: #fff; border: 2px solid #131313; box-shadow: 0 1px 3px rgba(0,0,0,.2); cursor: pointer; }
+    input[type=range]::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: #fff; border: 2px solid #131313; cursor: pointer; }
+    input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
+    input[type=number] { -moz-appearance: textfield; }
+
+    .mode-option input:checked + label { border-color: #131313; background: #faf9f7; box-shadow: inset 0 0 0 1px #131313; }
+    .mode-option input:checked + label .radio-dot { border-color: #131313; }
+    .mode-option input:checked + label .radio-dot::after { content: ''; position: absolute; inset: 3px; border-radius: 9999px; background: #131313; }
+    .mode-option input:focus-visible + label { outline: 2px solid #c2410c; outline-offset: 2px; }
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid #c2410c; outline-offset: 2px; }
+
+    #header.scrolled { box-shadow: 0 2px 12px rgba(0,0,0,.08); }
+    body.lb-open { overflow: hidden; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation: none !important; transition: none !important; }
+    }
+
+    .faq-content { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .3s ease; }
+    .faq-item.open .faq-content { grid-template-rows: 1fr; }
+    .faq-item.open .faq-icon { transform: rotate(45deg); }
+
+    .img-fallback { background: linear-gradient(135deg, #f1eee9, #e9e6e0); }
+    .img-fallback-dark { background: radial-gradient(circle at 30% 70%, rgba(194,65,12,.35), transparent 60%), #131313; }
+  </style>
+</head>
+
+<body class="font-sans antialiased overflow-x-hidden selection:bg-charred selection:text-white">
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="header" class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-smoke-700 transition-shadow">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 h-16 grid grid-cols-[1fr_auto_1fr] items-center">
+      <div class="flex items-center">
+        <button id="menuBtn" class="lg:hidden -ml-2 w-10 h-10 inline-flex items-center justify-center" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu">
+          <i data-lucide="menu" class="icon-open w-6 h-6"></i>
+          <i data-lucide="x" class="icon-close w-6 h-6 hidden"></i>
+        </button>
+        <ul class="hidden lg:flex items-center gap-6 text-[14px] h-s">
+          <li><a href="#trabalho" class="hover:text-charred-500">Fotos &amp; Vídeo</a></li>
+          <li><a href="#modalidades" class="hover:text-charred-500">Modalidades</a></li>
+          <li><a href="#cardapios" class="hover:text-charred-500">Cardápios</a></li>
+          <li><a href="#simulador" class="text-ember hover:text-ember-600">Simulador</a></li>
+          <li><a href="#faq" class="hover:text-charred-500">Dúvidas</a></li>
+        </ul>
+      </div>
+
+      <a href="#inicio" class="justify-self-center text-center leading-none">
+        <span class="block h-xl text-[22px] sm:text-[24px]">SILVIO <span class="text-ember">ÍNDIO</span></span>
+        <span class="block text-[9px] uppercase tracking-[0.26em] text-charred-500 mt-0.5 font-semibold">Churrasqueiro Profissional</span>
+      </a>
+
+      <div class="flex items-center justify-end gap-2">
+        <a href="#" data-wa="Olá, Silvio! Vim pelo site e gostaria de um orçamento para o meu churrasco." class="btn btn-primary btn-sm hidden sm:inline-flex">
+          Chamar no WhatsApp
+        </a>
+        <a href="#" data-wa="Olá, Silvio! Vim pelo site e gostaria de um orçamento para o meu churrasco." class="sm:hidden -mr-2 w-10 h-10 inline-flex items-center justify-center" aria-label="WhatsApp">
+          <i data-lucide="message-circle" class="w-6 h-6"></i>
+        </a>
+      </div>
+    </nav>
+
+    <!-- Menu Mobile Simples -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-smoke-700 bg-white px-4 py-3">
+      <ul class="flex flex-col divide-y divide-smoke-700 text-sm h-s">
+        <li><a href="#trabalho" class="m-link block py-3">Fotos &amp; Vídeo</a></li>
+        <li><a href="#modalidades" class="m-link block py-3">Modalidades</a></li>
+        <li><a href="#cardapios" class="m-link block py-3">Cardápios</a></li>
+        <li><a href="#simulador" class="m-link block py-3 text-ember">Simulador de Orçamento</a></li>
+        <li><a href="#faq" class="m-link block py-3">Dúvidas</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== 1. HERO (COM FOTO REAL DA GRELHA DO SILVIO) ===================== -->
+    <section id="inicio" class="relative overflow-hidden img-fallback-dark">
+      <img src="midia/hero-grelha.jpg"
+           alt="Grelha cheia de carnes e linguiças assando na brasa pelo Silvio Índio"
+           class="absolute inset-0 w-full h-full object-cover" fetchpriority="high" />
+      <div class="absolute inset-0 bg-gradient-to-r from-black/85 via-black/65 to-black/30"></div>
+
+      <div class="relative max-w-6xl mx-auto px-4 sm:px-6 min-h-[72svh] lg:min-h-[560px] flex items-center py-14">
+        <div class="max-w-xl text-white">
+          <p class="inline-flex items-center gap-2 bg-white/10 backdrop-blur border border-white/20 rounded-full px-3.5 py-1 text-xs font-medium">
+            🔥 Em Domicílio e Eventos · Betim, Contagem, BH e Região
+          </p>
+          <h1 class="h-xl mt-4 text-4xl sm:text-5xl lg:text-6xl">
+            Curta a sua festa como convidado. Deixe a brasa comigo.
+          </h1>
+          <p class="mt-4 text-base sm:text-lg text-white/85">
+            Apenas mão de obra especializada ou buffet de churrasco completo — do cálculo das carnes à churrasqueira limpa no final.
+          </p>
+          <div class="mt-7 flex flex-col sm:flex-row gap-3">
+            <a href="#simulador" class="btn btn-light">Simular Orçamento Agora <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+            <a href="#modalidades" class="btn btn-ghost-light">Ver Modalidades</a>
+          </div>
+          <ul class="mt-7 flex flex-wrap gap-x-5 gap-y-2 text-xs sm:text-sm text-white/85">
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-ember-400"></i>+5h de Serviço</li>
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-ember-400"></i>Utensílios Inclusos</li>
+            <li class="flex items-center gap-1.5"><i data-lucide="check" class="w-4 h-4 text-ember-400"></i>Chegada 1h30 Antes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 2. FOTOS E VÍDEO REAIS DO SILVIO ===================== -->
+    <section id="trabalho" class="py-14 lg:py-20 bg-smoke-100 border-b border-smoke-700 scroll-mt-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+          <div>
+            <p class="eyebrow text-ember">100% fotos e vídeos reais</p>
+            <h2 class="h-l text-3xl sm:text-4xl mt-1">O Silvio na prática</h2>
+            <p class="text-sm text-charred-500 mt-1">Da preparação antecipada aos convidados bem servidos na mesa.</p>
+          </div>
+          <div class="hidden sm:flex items-center gap-2">
+            <button type="button" id="galPrev" class="w-10 h-10 rounded-full border border-charred-300 bg-white hover:border-charred inline-flex items-center justify-center" aria-label="Anterior"><i data-lucide="chevron-left" class="w-5 h-5"></i></button>
+            <button type="button" id="galNext" class="w-10 h-10 rounded-full border border-charred-300 bg-white hover:border-charred inline-flex items-center justify-center" aria-label="Próximo"><i data-lucide="chevron-right" class="w-5 h-5"></i></button>
+          </div>
+        </div>
+
+        <!-- 3 Destaques Principais (Foto + Vídeo + Foto) -->
+        <div class="flex md:grid md:grid-cols-3 gap-4 md:gap-5 overflow-x-auto md:overflow-visible no-scrollbar snap-x snap-mandatory -mx-4 px-4 md:mx-0 md:px-0 pb-1">
+          <!-- 1: Preparo e Corte -->
+          <figure class="snap-center shrink-0 w-[82%] sm:w-[60%] md:w-auto bg-white border border-smoke-700 rounded-md overflow-hidden flex flex-col">
+            <div class="relative aspect-[4/5] img-fallback cursor-pointer group" data-lightbox="midia/picanha-preparo.jpg" data-caption="Silvio apresentando a peça de picanha antes de ir para a brasa">
+              <img src="midia/picanha-preparo.jpg"
+                   alt="Silvio Índio apresentando peça de picanha na churrasqueira"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute top-3 left-3 bg-charred text-white eyebrow px-2.5 py-1 rounded-btn">1 · Seleção e Preparo</span>
+            </div>
+            <figcaption class="p-4 text-sm text-charred-700">
+              <strong class="block h-s text-base text-charred">Chegada 1h30 antes</strong>
+              Escolha, limpeza e preparo das peças antes dos convidados chegarem.
+            </figcaption>
+          </figure>
+
+          <!-- 2: Vídeo Real na Tábua -->
+          <figure class="snap-center shrink-0 w-[82%] sm:w-[60%] md:w-auto bg-white border-2 border-charred rounded-md overflow-hidden flex flex-col">
+            <div class="relative aspect-[4/5] bg-charred">
+              <video src="midia/video-tabua.mp4"
+                     class="w-full h-full object-cover"
+                     autoplay muted loop playsinline controls preload="metadata">
+                Seu navegador não suporta vídeo.
+              </video>
+              <span class="absolute top-3 left-3 bg-ember text-white eyebrow px-2.5 py-1 rounded-btn pointer-events-none">2 · Ponto na Tábua</span>
+            </div>
+            <figcaption class="p-4 text-sm text-charred-700">
+              <strong class="block h-s text-base text-charred">Suculência do início ao fim</strong>
+              Carne fatiada na hora e servida sempre quente, no ponto que a turma prefere.
+            </figcaption>
+          </figure>
+
+          <!-- 3: Anfitrião e Convidados na Mesa -->
+          <figure class="snap-center shrink-0 w-[82%] sm:w-[60%] md:w-auto bg-white border border-smoke-700 rounded-md overflow-hidden flex flex-col">
+            <div class="relative aspect-[4/5] img-fallback cursor-pointer group" data-lightbox="midia/convidados-mesa.jpg" data-caption="Anfitrião e convidados curtindo a festa na mesa enquanto o Silvio comanda a churrasqueira">
+              <img src="midia/convidados-mesa.jpg"
+                   alt="Silvio Índio com os convidados sentados à mesa aproveitando o churrasco"
+                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute top-3 left-3 bg-charred text-white eyebrow px-2.5 py-1 rounded-btn">3 · Anfitrião Livre</span>
+            </div>
+            <figcaption class="p-4 text-sm text-charred-700">
+              <strong class="block h-s text-base text-charred">Você sentado com seus convidados</strong>
+              A turma servida na mesa sem você precisar ficar preso na churrasqueira.
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- Carrossel Compacto com todas as outras fotos reais da pasta -->
+        <div class="mt-6">
+          <p class="eyebrow text-charred-500 mb-3">Mais registros de eventos reais (toque para ampliar)</p>
+          <div id="galeria" class="flex gap-3 overflow-x-auto no-scrollbar snap-x snap-mandatory scroll-smooth pb-1">
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/picanha-fatiada.jpg" data-caption="Picanha fatiada no padrão com faca profissional própria">
+              <img src="midia/picanha-fatiada-thumb.jpg" alt="Picanha fatiada na tábua com faca profissional" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Corte padronizado</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/grelha-farta.jpg" data-caption="Grelha cheia com cortes bovinos, coraçãozinho e linguiça na brasa viva">
+              <img src="midia/grelha-farta-thumb.jpg" alt="Carnes e linguiças assando na brasa viva" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Grelha sempre farta</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/guarnicoes.jpg" data-caption="Silvio uniformizado preparando acompanhamentos e guarnições">
+              <img src="midia/guarnicoes-thumb.jpg" alt="Silvio uniformizado preparando guarnições" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Guarnições e organização</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/controle-brasa.jpg" data-caption="Silvio no comando da brasa">
+              <img src="midia/controle-brasa-thumb.jpg" alt="Silvio sorrindo ao lado da churrasqueira acesa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Controle de brasa</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/grelha-dois-andares.jpg" data-caption="Dois andares de grelha trabalhando juntos para atender todos os convidados">
+              <img src="midia/grelha-dois-andares-thumb.jpg" alt="Dois andares de grelha cheios de carne com sal grosso" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Sal grosso na medida</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/chegada-bancada.jpg" data-caption="Chegada antecipada com todas as carnes organizadas na bancada">
+              <img src="midia/chegada-bancada-thumb.jpg" alt="Silvio na chegada ao evento com as carnes organizadas" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Praça pronta antes da festa</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/preparo-bancada.jpg" data-caption="Preparo das tiras de picanha na bancada">
+              <img src="midia/preparo-bancada-thumb.jpg" alt="Silvio com a picanha fatiada na tábua" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Preparo na bancada</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/ritmo-de-festa.jpg" data-caption="Churrasqueira a todo vapor durante o evento">
+              <img src="midia/ritmo-de-festa-thumb.jpg" alt="Silvio fazendo joinha em frente à churrasqueira cheia" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Ritmo de festa</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/brasa-variedade.jpg" data-caption="Brasa forte e variedade de cortes bovinos, suínos, frango e linguiça">
+              <img src="midia/brasa-variedade-thumb.jpg" alt="Brasa vermelha com carnes variadas na grelha" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Brasa no ponto</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/zonas-de-calor.jpg" data-caption="Assamento simultâneo em dois níveis de grelha">
+              <img src="midia/zonas-de-calor-thumb.jpg" alt="Churrasqueira com dois níveis de grelha" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Zonas de calor</span>
+            </button>
+
+            <button type="button" class="snap-start shrink-0 w-44 sm:w-52 aspect-[4/5] rounded-md overflow-hidden border border-smoke-700 bg-white relative group text-left" data-lightbox="midia/silvio-churrasqueira.jpg" data-caption="Silvio Índio comandando o churrasco">
+              <img src="midia/silvio-churrasqueira-thumb.jpg" alt="Silvio Índio em frente à churrasqueira" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              <span class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 text-[11px] font-semibold text-white">Atendimento dedicado</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 3. AS 2 MODALIDADES ===================== -->
+    <section id="modalidades" class="py-16 lg:py-20 bg-white scroll-mt-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="mb-10">
+          <p class="eyebrow text-ember">Como contratar</p>
+          <h2 class="h-l text-3xl sm:text-4xl mt-1">Escolha a modalidade ideal</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <!-- Modalidade 1 -->
+          <article class="border border-smoke-700 rounded-md p-6 sm:p-8 flex flex-col justify-between">
+            <div>
+              <span class="eyebrow text-charred-500">Modalidade 1</span>
+              <h3 class="h-l text-2xl sm:text-3xl mt-1">Apenas Mão de Obra</h3>
+              <p class="text-sm text-charred-500 mt-2">Você compra as carnes e bebidas, e o Silvio comanda o preparo do início ao fim.</p>
+
+              <ul class="mt-6 space-y-2.5 text-sm text-charred-700">
+                <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 text-ember shrink-0 mt-0.5"></i><span><strong>Lista de compras gratuita</strong> calculada para os seus convidados</span></li>
+                <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 text-ember shrink-0 mt-0.5"></i><span>Chegada <strong>1h30 antes</strong> e 5h de serviço</span></li>
+                <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 text-ember shrink-0 mt-0.5"></i><span>Utensílios profissionais próprios inclusos</span></li>
+                <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 text-ember shrink-0 mt-0.5"></i><span>Limpeza da churrasqueira ao encerrar</span></li>
+              </ul>
+            </div>
+            <a href="#simulador" data-select-mode="mao_de_obra" class="btn btn-secondary mt-7 w-full">Simular Mão de Obra</a>
+          </article>
+
+          <!-- Modalidade 2 -->
+          <article class="border-2 border-charred rounded-md p-6 sm:p-8 flex flex-col justify-between bg-smoke-50">
+            <div>
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <span class="eyebrow text-ember">Modalidade 2 · Buffet</span>
+                <span class="bg-charred text-white eyebrow px-2.5 py-1 rounded-btn whitespace-nowrap">Comodidade Total</span>
+              </div>
+              <h3 class="h-l text-2xl sm:text-3xl mt-1">Pacote Completo</h3>
+              <p class="text-sm text-charred-500 mt-2">Preço por pessoa. Você não se preocupa com mercado nem açougue.</p>
+
+              <ul class="mt-6 space-y-2.5 text-sm text-charred-700">
+                <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 text-ember shrink-0 mt-0.5"></i><span><strong>Carnes selecionadas</strong> (400g a 500g por adulto)</span></li>
+                <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 text-ember shrink-0 mt-0.5"></i><span>Guarnições, carvão, sal de parrilla e descartáveis</span></li>
+                <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 text-ember shrink-0 mt-0.5"></i><span><strong>Equipe completa</strong> de assadores e reposição</span></li>
+                <li class="flex gap-2.5"><i data-lucide="check" class="w-4 h-4 text-ember shrink-0 mt-0.5"></i><span>3 opções de cardápio (Tradicional, Especial e Premium)</span></li>
+              </ul>
+            </div>
+            <a href="#simulador" data-select-mode="pacote_completo" class="btn btn-primary mt-7 w-full">Simular Pacote Completo</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 4. CARDÁPIOS (COM FOTOS REAIS) ===================== -->
+    <section id="cardapios" class="py-16 lg:py-20 bg-smoke-100 border-y border-smoke-700 scroll-mt-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="mb-8">
+          <p class="eyebrow text-charred-500">Para o Pacote Completo</p>
+          <h2 class="h-l text-3xl sm:text-4xl mt-1">Opções de Cardápio</h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-5">
+          <!-- Tradicional -->
+          <article class="bg-white border border-smoke-700 rounded-md overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="h-44 overflow-hidden img-fallback">
+                <img src="midia/brasa-variedade.jpg" alt="Churrasco Tradicional na grelha" class="w-full h-full object-cover" loading="lazy" />
+              </div>
+              <div class="p-6">
+                <span class="eyebrow text-charred-500">Opção 01</span>
+                <h3 class="h-s text-xl mt-1">Tradicional</h3>
+                <ul class="mt-4 space-y-2 text-sm text-charred-700">
+                  <li>• Contrafilé / Alcatra</li>
+                  <li>• Lombo ou Pernil suíno</li>
+                  <li>• Linguiça Toscana</li>
+                  <li>• Tulipa / Drumet de frango</li>
+                  <li>• Pão de alho</li>
+                </ul>
+                <p class="mt-4 pt-4 border-t border-smoke-700 text-xs text-charred-500"><strong>Guarnições:</strong> Arroz branco, Feijão tropeiro ou Farofa crocante e Vinagrete.</p>
+              </div>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="#simulador" data-select-mode="pacote_completo" data-menu="Tradicional" class="btn btn-secondary btn-sm w-full">Escolher Tradicional</a>
+            </div>
+          </article>
+
+          <!-- Especial -->
+          <article class="bg-white border-2 border-charred rounded-md overflow-hidden flex flex-col justify-between relative">
+            <span class="absolute top-3 right-3 z-10 bg-ember text-white eyebrow px-2.5 py-1 rounded-btn">Mais Pedido</span>
+            <div>
+              <div class="h-44 overflow-hidden img-fallback">
+                <img src="midia/grelha-farta.jpg" alt="Churrasco Especial na grelha" class="w-full h-full object-cover" loading="lazy" />
+              </div>
+              <div class="p-6">
+                <span class="eyebrow text-ember">Opção 02</span>
+                <h3 class="h-s text-xl mt-1">Especial</h3>
+                <ul class="mt-4 space-y-2 text-sm text-charred-700">
+                  <li>• <strong>Picanha</strong></li>
+                  <li>• Contrafilé selecionado</li>
+                  <li>• Linguiça recheada / cuiabana</li>
+                  <li>• Coraçãozinho ou Tulipa</li>
+                  <li>• Queijo coalho na brasa</li>
+                  <li>• Pão de alho + Abacaxi com canela</li>
+                </ul>
+                <p class="mt-4 pt-4 border-t border-smoke-700 text-xs text-charred-500"><strong>Guarnições:</strong> Completas + Mandioca cozida na manteiga.</p>
+              </div>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="#simulador" data-select-mode="pacote_completo" data-menu="Especial" class="btn btn-primary btn-sm w-full">Escolher Especial</a>
+            </div>
+          </article>
+
+          <!-- Premium -->
+          <article class="bg-white border border-smoke-700 rounded-md overflow-hidden flex flex-col justify-between">
+            <div>
+              <div class="h-44 overflow-hidden img-fallback">
+                <img src="midia/picanha-fatiada.jpg" alt="Cortes nobres de picanha na tábua" class="w-full h-full object-cover" loading="lazy" />
+              </div>
+              <div class="p-6">
+                <span class="eyebrow text-charred-500">Opção 03</span>
+                <h3 class="h-s text-xl mt-1">Premium / Cortes Nobres</h3>
+                <ul class="mt-4 space-y-2 text-sm text-charred-700">
+                  <li>• <strong>Picanha Angus</strong></li>
+                  <li>• Bife Ancho / Chorizo</li>
+                  <li>• Costela ou Fraldinha na mostarda</li>
+                  <li>• Linguiça artesanal</li>
+                  <li>• Queijo coalho com melado</li>
+                  <li>• Pão de alho gourmet</li>
+                </ul>
+                <p class="mt-4 pt-4 border-t border-smoke-700 text-xs text-charred-500"><strong>Guarnições:</strong> Guarnições especiais completas.</p>
+              </div>
+            </div>
+            <div class="px-6 pb-6">
+              <a href="#simulador" data-select-mode="pacote_completo" data-menu="Premium" class="btn btn-secondary btn-sm w-full">Escolher Premium</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 5. SIMULADOR DE ORÇAMENTO ===================== -->
+    <section id="simulador" class="py-16 lg:py-20 bg-white scroll-mt-16">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="mb-8">
+          <p class="eyebrow text-ember">Calculadora Automática</p>
+          <h2 class="h-l text-3xl sm:text-4xl mt-1">Simule seu churrasco em 30 segundos</h2>
+          <p class="text-sm text-charred-500 mt-1">Descubra a quantidade de carne, carvão e equipe e receba o orçamento por escrito no WhatsApp.</p>
+        </div>
+
+        <form id="simForm" class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start" novalidate>
+          <!-- Inputs -->
+          <div class="min-w-0 lg:col-span-7 bg-smoke-50 border border-smoke-700 rounded-md p-5 sm:p-7 space-y-5">
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="sm:col-span-2">
+                <label for="nome" class="block text-xs font-bold uppercase tracking-wider mb-1.5">Seu Nome *</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite seu nome" class="w-full bg-white border border-charred-300 rounded-btn px-3.5 py-2.5 text-base sm:text-sm min-w-0 focus:outline-none focus:border-charred" />
+                <p id="nomeErro" class="hidden text-xs text-red-600 mt-1">Informe seu nome para continuar.</p>
+              </div>
+              <div>
+                <label for="local" class="block text-xs font-bold uppercase tracking-wider mb-1.5">Cidade / Bairro</label>
+                <input id="local" name="local" type="text" list="cidades" placeholder="Ex: Betim, Contagem, BH" class="w-full bg-white border border-charred-300 rounded-btn px-3.5 py-2.5 text-base sm:text-sm min-w-0 focus:outline-none focus:border-charred" />
+                <datalist id="cidades">
+                  <option value="Betim"></option>
+                  <option value="Contagem"></option>
+                  <option value="Belo Horizonte"></option>
+                  <option value="Ibirité"></option>
+                  <option value="Nova Lima"></option>
+                  <option value="Igarapé"></option>
+                </datalist>
+              </div>
+              <div>
+                <label for="data" class="block text-xs font-bold uppercase tracking-wider mb-1.5">Data do Evento</label>
+                <input id="data" name="data" type="date" class="w-full bg-white border border-charred-300 rounded-btn px-3.5 py-2.5 text-base sm:text-sm min-w-0 focus:outline-none focus:border-charred" />
+              </div>
+            </div>
+
+            <fieldset>
+              <legend class="block text-xs font-bold uppercase tracking-wider mb-2">Modalidade</legend>
+              <div class="grid sm:grid-cols-2 gap-3">
+                <div class="mode-option">
+                  <input type="radio" name="modalidade" id="modo1" value="mao_de_obra" class="sr-only" checked />
+                  <label for="modo1" class="flex items-center gap-3 cursor-pointer bg-white border border-smoke-900 rounded-md p-3.5 text-sm">
+                    <span class="radio-dot relative w-4 h-4 rounded-full border-2 border-charred-300 shrink-0"></span>
+                    <span><strong class="block">Só Mão de Obra</strong><span class="text-xs text-charred-500">Eu compro as carnes</span></span>
+                  </label>
+                </div>
+                <div class="mode-option">
+                  <input type="radio" name="modalidade" id="modo2" value="pacote_completo" class="sr-only" />
+                  <label for="modo2" class="flex items-center gap-3 cursor-pointer bg-white border border-smoke-900 rounded-md p-3.5 text-sm">
+                    <span class="radio-dot relative w-4 h-4 rounded-full border-2 border-charred-300 shrink-0"></span>
+                    <span><strong class="block">Pacote Completo</strong><span class="text-xs text-charred-500">Silvio leva tudo</span></span>
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+            <div id="menuWrap" class="hidden">
+              <label for="cardapio" class="block text-xs font-bold uppercase tracking-wider mb-1.5">Cardápio</label>
+              <select id="cardapio" name="cardapio" class="w-full bg-white border border-charred-300 rounded-btn px-3.5 py-2.5 text-base sm:text-sm min-w-0 focus:outline-none focus:border-charred">
+                <option value="Especial">Churrasco Especial (Mais Pedido)</option>
+                <option value="Tradicional">Churrasco Tradicional</option>
+                <option value="Premium">Churrasco Premium / Cortes Nobres</option>
+              </select>
+            </div>
+
+            <!-- Sliders de Convidados -->
+            <div class="pt-2 divide-y divide-smoke-700 border-t border-smoke-700">
+              <div class="guest-control py-4">
+                <div class="flex items-center justify-between mb-2.5">
+                  <label for="homens" class="text-sm font-semibold">Homens adultos <span class="text-xs font-normal text-charred-500">(400g)</span></label>
+                  <div class="flex items-center border border-charred-300 rounded-btn bg-white">
+                    <button type="button" class="step-btn w-10 h-10 sm:w-8 sm:h-8 inline-flex items-center justify-center hover:bg-smoke-300" data-step="-1" aria-label="Diminuir"><i data-lucide="minus" class="w-3.5 h-3.5"></i></button>
+                    <input id="homens" type="number" inputmode="numeric" min="0" max="300" value="15" class="num-input w-14 h-10 sm:w-12 sm:h-8 text-center text-base sm:text-sm font-bold border-x border-charred-300 focus:outline-none" />
+                    <button type="button" class="step-btn w-10 h-10 sm:w-8 sm:h-8 inline-flex items-center justify-center hover:bg-smoke-300" data-step="1" aria-label="Aumentar"><i data-lucide="plus" class="w-3.5 h-3.5"></i></button>
+                  </div>
+                </div>
+                <input type="range" min="0" max="300" value="15" class="range-input" aria-label="Homens adultos" />
+              </div>
+
+              <div class="guest-control py-4">
+                <div class="flex items-center justify-between mb-2.5">
+                  <label for="mulheres" class="text-sm font-semibold">Mulheres adultas <span class="text-xs font-normal text-charred-500">(300g)</span></label>
+                  <div class="flex items-center border border-charred-300 rounded-btn bg-white">
+                    <button type="button" class="step-btn w-10 h-10 sm:w-8 sm:h-8 inline-flex items-center justify-center hover:bg-smoke-300" data-step="-1" aria-label="Diminuir"><i data-lucide="minus" class="w-3.5 h-3.5"></i></button>
+                    <input id="mulheres" type="number" inputmode="numeric" min="0" max="300" value="15" class="num-input w-14 h-10 sm:w-12 sm:h-8 text-center text-base sm:text-sm font-bold border-x border-charred-300 focus:outline-none" />
+                    <button type="button" class="step-btn w-10 h-10 sm:w-8 sm:h-8 inline-flex items-center justify-center hover:bg-smoke-300" data-step="1" aria-label="Aumentar"><i data-lucide="plus" class="w-3.5 h-3.5"></i></button>
+                  </div>
+                </div>
+                <input type="range" min="0" max="300" value="15" class="range-input" aria-label="Mulheres adultas" />
+              </div>
+
+              <div class="guest-control pt-4">
+                <div class="flex items-center justify-between mb-2.5">
+                  <label for="criancas" class="text-sm font-semibold">Crianças de 6 a 10 anos <span class="text-xs font-normal text-charred-500">(150g)</span></label>
+                  <div class="flex items-center border border-charred-300 rounded-btn bg-white">
+                    <button type="button" class="step-btn w-10 h-10 sm:w-8 sm:h-8 inline-flex items-center justify-center hover:bg-smoke-300" data-step="-1" aria-label="Diminuir"><i data-lucide="minus" class="w-3.5 h-3.5"></i></button>
+                    <input id="criancas" type="number" inputmode="numeric" min="0" max="150" value="5" class="num-input w-14 h-10 sm:w-12 sm:h-8 text-center text-base sm:text-sm font-bold border-x border-charred-300 focus:outline-none" />
+                    <button type="button" class="step-btn w-10 h-10 sm:w-8 sm:h-8 inline-flex items-center justify-center hover:bg-smoke-300" data-step="1" aria-label="Aumentar"><i data-lucide="plus" class="w-3.5 h-3.5"></i></button>
+                  </div>
+                </div>
+                <input type="range" min="0" max="150" value="5" class="range-input" aria-label="Crianças" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Painel de Resultado -->
+          <aside class="min-w-0 lg:col-span-5 lg:sticky lg:top-20" aria-live="polite">
+            <div class="bg-charred text-white rounded-md p-6">
+              <p class="eyebrow text-ember-400">Estimativa do Evento</p>
+
+              <div class="grid grid-cols-2 gap-3 mt-4">
+                <div class="bg-charred-700 p-3.5 rounded-btn">
+                  <p class="text-[11px] uppercase text-white/60">Convidados</p>
+                  <p class="h-xl text-3xl mt-1"><span id="resTotal">35</span> <span class="text-xs font-sans font-normal text-white/50">(<span id="resEquiv">32,5</span> eq.)</span></p>
+                </div>
+                <div class="bg-charred-700 p-3.5 rounded-btn">
+                  <p class="text-[11px] uppercase text-white/60">Carne Estimada</p>
+                  <p class="h-xl text-3xl mt-1"><span id="resCarne">11,3</span> <span class="text-sm font-sans font-normal text-white/60">kg</span></p>
+                </div>
+              </div>
+
+              <div class="mt-3 grid grid-cols-2 gap-3">
+                <div class="bg-charred-700 p-3.5 rounded-btn">
+                  <p class="text-[11px] uppercase text-white/60">Carvão</p>
+                  <p class="h-s text-xl mt-1"><span id="resCarvao">7,5</span> kg</p>
+                  <p class="text-[11px] text-white/50" id="resSacos">≈ 1 saco de 10kg</p>
+                </div>
+                <div class="bg-charred-700 p-3.5 rounded-btn">
+                  <p class="text-[11px] uppercase text-white/60">Equipe Ideal</p>
+                  <p class="h-s text-base mt-1" id="resEquipe">1 Churrasqueiro</p>
+                </div>
+              </div>
+
+              <p id="convErro" class="hidden mt-4 text-xs text-amber-300" role="alert">Informe pelo menos 1 convidado para receber o orçamento.</p>
+              <button type="submit" class="btn btn-whats w-full mt-5 text-sm min-h-[50px] whitespace-normal text-center">
+                Receber Orçamento Exato no WhatsApp
+              </button>
+              <p class="mt-2.5 text-center text-[11px] text-white/50">Enviamos a proposta formal detalhada · Sem compromisso</p>
+            </div>
+          </aside>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================== 6. DIFERENCIAIS ===================== -->
+    <section id="diferenciais" class="py-16 lg:py-20 bg-smoke-100 border-t border-smoke-700">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <h2 class="h-l text-2xl sm:text-3xl mb-8">Por que contratar o Silvio Souza Índio?</h2>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-white border border-smoke-700 rounded-md p-5 flex gap-3.5">
+            <i data-lucide="shirt" class="w-5 h-5 text-ember shrink-0 mt-0.5"></i>
+            <div><h3 class="h-s text-base">Apresentação Impecável</h3><p class="text-xs text-charred-500 mt-1">Uniformizado, luvas nitrílicas pretas e higiene rigorosa.</p></div>
+          </div>
+          <div class="bg-white border border-smoke-700 rounded-md p-5 flex gap-3.5">
+            <i data-lucide="thermometer" class="w-5 h-5 text-ember shrink-0 mt-0.5"></i>
+            <div><h3 class="h-s text-base">Domínio do Ponto</h3><p class="text-xs text-charred-500 mt-1">Mal passada, ao ponto ou bem passada conforme a turma.</p></div>
+          </div>
+          <div class="bg-white border border-smoke-700 rounded-md p-5 flex gap-3.5">
+            <i data-lucide="recycle" class="w-5 h-5 text-ember shrink-0 mt-0.5"></i>
+            <div><h3 class="h-s text-base">Zero Desperdício</h3><p class="text-xs text-charred-500 mt-1">Controle de brasa e corte estratégico para a carne render mais.</p></div>
+          </div>
+          <div class="bg-white border border-smoke-700 rounded-md p-5 flex gap-3.5">
+            <i data-lucide="alarm-clock-check" class="w-5 h-5 text-ember shrink-0 mt-0.5"></i>
+            <div><h3 class="h-s text-base">Pontualidade Rigorosa</h3><p class="text-xs text-charred-500 mt-1">Chegada 1h30 antes para a carne sair na hora certa.</p></div>
+          </div>
+          <div class="bg-white border border-smoke-700 rounded-md p-5 flex gap-3.5">
+            <i data-lucide="clipboard-list" class="w-5 h-5 text-ember shrink-0 mt-0.5"></i>
+            <div><h3 class="h-s text-base">Consultoria de Compras</h3><p class="text-xs text-charred-500 mt-1">Montamos sua lista exata de açougue e carvão.</p></div>
+          </div>
+          <div class="bg-white border border-smoke-700 rounded-md p-5 flex gap-3.5">
+            <i data-lucide="sparkles" class="w-5 h-5 text-ember shrink-0 mt-0.5"></i>
+            <div><h3 class="h-s text-base">Pós-Evento Limpo</h3><p class="text-xs text-charred-500 mt-1">Churrasqueira e bancada entregues limpas ao final.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 7. COMO RESERVAR ===================== -->
+    <section id="como-reservar" class="py-16 lg:py-20 bg-charred text-white">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6">
+        <p class="eyebrow text-ember-400">Simples e rápido</p>
+        <h2 class="h-l text-2xl sm:text-3xl mt-1 mb-8">Como reservar sua data</h2>
+
+        <ol class="grid md:grid-cols-3 gap-4">
+          <li class="bg-charred-700 rounded-md p-6">
+            <span class="h-xl text-4xl text-ember-400">01</span>
+            <h3 class="h-s text-lg mt-3">Simule e chame no WhatsApp</h3>
+            <p class="text-sm text-white/70 mt-1.5">Informe convidados e modalidade no simulador. A mensagem já vai pronta.</p>
+          </li>
+          <li class="bg-charred-700 rounded-md p-6">
+            <span class="h-xl text-4xl text-ember-400">02</span>
+            <h3 class="h-s text-lg mt-3">Receba a proposta por escrito</h3>
+            <p class="text-sm text-white/70 mt-1.5">Valores, cardápio e lista de compras detalhados, sem compromisso.</p>
+          </li>
+          <li class="bg-charred-700 rounded-md p-6">
+            <span class="h-xl text-4xl text-ember-400">03</span>
+            <h3 class="h-s text-lg mt-3">Garanta a data com o sinal</h3>
+            <p class="text-sm text-white/70 mt-1.5">Sinal de reserva e contrato simples. No dia, é só curtir a festa.</p>
+          </li>
+        </ol>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-3">
+          <a href="#simulador" class="btn btn-light">Simular Orçamento <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+          <a href="#" data-wa="Olá, Silvio! Vim pelo site e gostaria de verificar a disponibilidade de uma data." class="btn btn-ghost-light">Consultar Disponibilidade</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 8. FAQ ENXUTO ===================== -->
+    <section id="faq" class="py-16 lg:py-20 bg-white border-t border-smoke-700 scroll-mt-16">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6">
+        <h2 class="h-l text-2xl sm:text-3xl mb-6">Dúvidas Frequentes</h2>
+
+        <div class="border-t border-charred">
+          <div class="faq-item border-b border-smoke-700">
+            <button type="button" class="faq-btn w-full flex items-center justify-between gap-4 text-left py-4" aria-expanded="false">
+              <span class="h-s text-base">Qual a duração do serviço?</span>
+              <i data-lucide="plus" class="faq-icon w-5 h-5 shrink-0 transition-transform"></i>
+            </button>
+            <div class="faq-content"><div class="overflow-hidden"><p class="pb-4 text-sm text-charred-500">Padrão de 5 horas de festa a partir do início do serviço, com chegada de 1h a 1h30 antes para preparo.</p></div></div>
+          </div>
+
+          <div class="faq-item border-b border-smoke-700">
+            <button type="button" class="faq-btn w-full flex items-center justify-between gap-4 text-left py-4" aria-expanded="false">
+              <span class="h-s text-base">Preciso ter facas e utensílios em casa?</span>
+              <i data-lucide="plus" class="faq-icon w-5 h-5 shrink-0 transition-transform"></i>
+            </button>
+            <div class="faq-content"><div class="overflow-hidden"><p class="pb-4 text-sm text-charred-500">Não. O Silvio leva todo o kit profissional de corte e preparo. O local só precisa ter a estrutura física da churrasqueira.</p></div></div>
+          </div>
+
+          <div class="faq-item border-b border-smoke-700">
+            <button type="button" class="faq-btn w-full flex items-center justify-between gap-4 text-left py-4" aria-expanded="false">
+              <span class="h-s text-base">Como funciona a contagem de crianças no pacote completo?</span>
+              <i data-lucide="plus" class="faq-icon w-5 h-5 shrink-0 transition-transform"></i>
+            </button>
+            <div class="faq-content"><div class="overflow-hidden"><p class="pb-4 text-sm text-charred-500">0 a 5 anos são isentas; 6 a 10 anos contam como meia pessoa; a partir de 11 anos contam como adulto.</p></div></div>
+          </div>
+
+          <div class="faq-item border-b border-smoke-700">
+            <button type="button" class="faq-btn w-full flex items-center justify-between gap-4 text-left py-4" aria-expanded="false">
+              <span class="h-s text-base">Como faço para reservar uma data na agenda?</span>
+              <i data-lucide="plus" class="faq-icon w-5 h-5 shrink-0 transition-transform"></i>
+            </button>
+            <div class="faq-content"><div class="overflow-hidden"><p class="pb-4 text-sm text-charred-500">Mediante envio da proposta por escrito, sinal de reserva para bloqueio da data e contrato simples de prestação de serviço.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== LIGHTBOX PARA AMPLIAR AS FOTOS ===================== -->
+  <div id="lightbox" class="fixed inset-0 z-[70] bg-black/90 hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+    <button type="button" id="lbClose" class="absolute top-4 right-4 z-10 w-11 h-11 rounded-full bg-white/10 text-white inline-flex items-center justify-center hover:bg-white/20" aria-label="Fechar foto">
+      <i data-lucide="x" class="w-6 h-6"></i>
+    </button>
+    <button type="button" id="lbPrev" class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full bg-white/10 text-white inline-flex items-center justify-center hover:bg-white/20" aria-label="Foto anterior">
+      <i data-lucide="chevron-left" class="w-6 h-6"></i>
+    </button>
+    <button type="button" id="lbNext" class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 w-11 h-11 rounded-full bg-white/10 text-white inline-flex items-center justify-center hover:bg-white/20" aria-label="Próxima foto">
+      <i data-lucide="chevron-right" class="w-6 h-6"></i>
+    </button>
+    <figure class="max-w-3xl w-full flex flex-col items-center">
+      <img id="lbImg" src="" alt="" class="max-h-[80vh] w-auto rounded-md object-contain" />
+      <figcaption id="lbCap" class="text-white/90 text-sm text-center mt-3"></figcaption>
+      <p id="lbCount" class="text-white/50 text-xs mt-1"></p>
+    </figure>
+  </div>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="bg-smoke-100 border-t border-smoke-700 py-10 pb-24 sm:pb-10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+      <div>
+        <span class="h-xl text-xl">SILVIO <span class="text-ember">ÍNDIO</span></span>
+        <p class="text-xs text-charred-500 mt-1">Churrasqueiro Profissional · Betim, Contagem, BH e Região Metropolitana (MG)</p>
+        <p class="text-xs text-charred-500 mt-1">© 2026 Silvio Souza Índio - Churrasqueiro Profissional. Todos os direitos reservados.</p>
+      </div>
+      <div class="flex flex-wrap gap-3">
+        <a href="#" data-wa="Olá, Silvio! Tenho um espaço de eventos / cerimonial e gostaria de conversar sobre parceria." class="btn btn-secondary btn-sm">Parcerias com Espaços</a>
+        <a href="#" data-wa="Olá, Silvio! Vim pelo site e gostaria de um orçamento." class="btn btn-whats btn-sm">Chamar no WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== WHATSAPP FLUTUANTE ===================== -->
+  <a href="#" data-wa="Olá, Silvio! Vim pelo site e gostaria de um orçamento para o meu churrasco." id="waFloat" class="fixed bottom-4 right-4 sm:bottom-5 sm:right-5 z-40 group transition-all duration-200" aria-label="Falar no WhatsApp">
+    <span class="absolute inset-0 rounded-full bg-[#25D366] animate-pulseRing"></span>
+    <span class="relative w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-[#25D366] shadow-xl flex items-center justify-center text-white group-hover:scale-105 transition-transform">
+      <svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </span>
+  </a>
+
+  <!-- ===================== SCRIPTS ===================== -->
+  <script>
+    // ⚠️ TROCAR pelo WhatsApp real do Silvio: 55 + DDD + número, só dígitos (ex: 5531987654321)
+    const WHATSAPP_NUMBER = "5531999999999";
+    const CONSUMO = { homem: 0.400, mulher: 0.300, crianca: 0.150 };
+    const KG_CARNE_POR_KG_CARVAO = 1.5;
+
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) lucide.createIcons();
+
+      const $ = (sel, ctx = document) => ctx.querySelector(sel);
+      const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
+      const fmt = (n, d = 1) => n.toLocaleString('pt-BR', { minimumFractionDigits: d, maximumFractionDigits: d });
+      const fmtAuto = (n) => fmt(n, n % 1 === 0 ? 0 : 1);
+      const waLink = (msg) => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`;
+
+      $$('[data-wa]').forEach(el => {
+        el.setAttribute('href', waLink(el.dataset.wa));
+        el.setAttribute('target', '_blank');
+        el.setAttribute('rel', 'noopener noreferrer');
+      });
+
+      /* Menu mobile */
+      const mobileMenu = $('#mobileMenu');
+      const menuBtn = $('#menuBtn');
+      const setMenu = (open) => {
+        mobileMenu.classList.toggle('hidden', !open);
+        menuBtn.setAttribute('aria-expanded', open);
+        menuBtn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+        $('.icon-open', menuBtn).classList.toggle('hidden', open);
+        $('.icon-close', menuBtn).classList.toggle('hidden', !open);
+      };
+      menuBtn.addEventListener('click', () => setMenu(mobileMenu.classList.contains('hidden')));
+      $$('.m-link').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+      /* Sombra no header ao rolar */
+      const header = $('#header');
+      const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 8);
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+
+      /* Esconde o WhatsApp flutuante onde já existe botão de WhatsApp (simulador e rodapé) */
+      const waFloat = $('#waFloat');
+      if ('IntersectionObserver' in window) {
+        const visiveis = new Set();
+        const obs = new IntersectionObserver((entries) => {
+          entries.forEach(en => en.isIntersecting ? visiveis.add(en.target) : visiveis.delete(en.target));
+          const esconder = visiveis.size > 0;
+          waFloat.classList.toggle('opacity-0', esconder);
+          waFloat.classList.toggle('pointer-events-none', esconder);
+          waFloat.classList.toggle('translate-y-4', esconder);
+        }, { threshold: 0 });
+        [$('#simulador aside'), $('footer')].forEach(el => el && obs.observe(el));
+      }
+
+      /* Navegação da galeria */
+      const galeria = $('#galeria');
+      $('#galPrev')?.addEventListener('click', () => galeria.scrollBy({ left: -240, behavior: 'smooth' }));
+      $('#galNext')?.addEventListener('click', () => galeria.scrollBy({ left: 240, behavior: 'smooth' }));
+
+      /* Lightbox para ampliar fotos */
+      const lb = $('#lightbox');
+      const lbImg = $('#lbImg');
+      const lbCap = $('#lbCap');
+      const lbCount = $('#lbCount');
+      const fotos = $$('[data-lightbox]');
+      let lbIndex = 0;
+      let lbOrigem = null;
+      const isLbOpen = () => !lb.classList.contains('hidden');
+      const showFoto = (i) => {
+        lbIndex = (i + fotos.length) % fotos.length;
+        const el = fotos[lbIndex];
+        lbImg.src = el.dataset.lightbox;
+        lbImg.alt = el.querySelector('img')?.alt || '';
+        lbCap.textContent = el.dataset.caption || '';
+        lbCount.textContent = `${lbIndex + 1} / ${fotos.length}`;
+      };
+      const openLb = (i) => {
+        lbOrigem = document.activeElement;
+        showFoto(i);
+        lb.classList.remove('hidden');
+        lb.classList.add('flex');
+        document.body.classList.add('lb-open');
+        $('#lbClose').focus();
+      };
+      const closeLb = () => {
+        if (!isLbOpen()) return;
+        lb.classList.add('hidden');
+        lb.classList.remove('flex');
+        document.body.classList.remove('lb-open');
+        lbImg.src = '';
+        lbOrigem?.focus();
+      };
+      fotos.forEach((el, i) => {
+        el.addEventListener('click', () => openLb(i));
+        if (el.tagName !== 'BUTTON') {
+          el.setAttribute('tabindex', '0');
+          el.setAttribute('role', 'button');
+          el.setAttribute('aria-label', `Ampliar foto: ${el.dataset.caption || ''}`);
+          el.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openLb(i); }
+          });
+        }
+      });
+      $('#lbClose').addEventListener('click', closeLb);
+      $('#lbPrev').addEventListener('click', () => showFoto(lbIndex - 1));
+      $('#lbNext').addEventListener('click', () => showFoto(lbIndex + 1));
+      lb.addEventListener('click', (e) => { if (e.target === lb) closeLb(); });
+      document.addEventListener('keydown', (e) => {
+        if (!isLbOpen()) return;
+        if (e.key === 'Escape') closeLb();
+        else if (e.key === 'ArrowLeft') showFoto(lbIndex - 1);
+        else if (e.key === 'ArrowRight') showFoto(lbIndex + 1);
+      });
+
+      /* Swipe no celular */
+      let touchX = null;
+      lb.addEventListener('touchstart', (e) => { touchX = e.touches[0].clientX; }, { passive: true });
+      lb.addEventListener('touchend', (e) => {
+        if (touchX === null) return;
+        const dx = e.changedTouches[0].clientX - touchX;
+        if (Math.abs(dx) > 50) showFoto(lbIndex + (dx < 0 ? 1 : -1));
+        touchX = null;
+      });
+
+      /* FAQ Accordion */
+      const faqItems = $$('.faq-item');
+      faqItems.forEach(item => {
+        const btn = $('.faq-btn', item);
+        btn.addEventListener('click', () => {
+          const isOpen = item.classList.contains('open');
+          faqItems.forEach(o => {
+            o.classList.remove('open');
+            $('.faq-btn', o).setAttribute('aria-expanded', 'false');
+          });
+          if (!isOpen) {
+            item.classList.add('open');
+            btn.setAttribute('aria-expanded', 'true');
+          }
+        });
+      });
+
+      /* Simulador */
+      const form = $('#simForm');
+      const inputNome = $('#nome');
+      const inputLocal = $('#local');
+      const inputData = $('#data');
+      const selectCardapio = $('#cardapio');
+      const menuWrap = $('#menuWrap');
+
+      const hoje = new Date();
+      inputData.min = new Date(hoje.getTime() - hoje.getTimezoneOffset() * 60000).toISOString().split('T')[0];
+
+      const getModalidade = () => $('input[name="modalidade"]:checked').value;
+      const clampInt = (v, min, max) => {
+        const n = parseInt(v, 10);
+        return isNaN(n) ? min : Math.min(max, Math.max(min, n));
+      };
+
+      function updateRangeFill(range) {
+        const pct = (range.value - range.min) / (range.max - range.min) * 100;
+        range.style.background = `linear-gradient(90deg, #131313 0%, #131313 ${pct}%, #e9e6e0 ${pct}%)`;
+      }
+
+      $$('.guest-control').forEach(ctrl => {
+        const num = $('.num-input', ctrl);
+        const range = $('.range-input', ctrl);
+        const max = parseInt(num.max, 10);
+
+        const setValue = (v, fromRange = false) => {
+          const val = clampInt(v, 0, max);
+          num.value = val;
+          if (!fromRange) range.value = val;
+          updateRangeFill(range);
+          calcular();
+        };
+
+        range.addEventListener('input', () => setValue(range.value, true));
+        num.addEventListener('input', () => {
+          if (num.value === '') { range.value = 0; updateRangeFill(range); calcular(); return; }
+          setValue(num.value);
+        });
+        num.addEventListener('blur', () => setValue(num.value));
+        $$('.step-btn', ctrl).forEach(btn => {
+          btn.addEventListener('click', () => setValue((parseInt(num.value, 10) || 0) + parseInt(btn.dataset.step, 10)));
+        });
+        updateRangeFill(range);
+      });
+
+      const toggleCardapio = () => menuWrap.classList.toggle('hidden', getModalidade() !== 'pacote_completo');
+      $$('input[name="modalidade"]').forEach(r => r.addEventListener('change', toggleCardapio));
+
+      $$('[data-select-mode]').forEach(link => {
+        link.addEventListener('click', () => {
+          const radio = $(`input[name="modalidade"][value="${link.dataset.selectMode}"]`);
+          if (radio) radio.checked = true;
+          if (link.dataset.menu) selectCardapio.value = link.dataset.menu;
+          toggleCardapio();
+        });
+      });
+
+      let resultado = {};
+      const convErro = $('#convErro');
+
+      function calcular() {
+        const homens = clampInt($('#homens').value, 0, 300);
+        const mulheres = clampInt($('#mulheres').value, 0, 300);
+        const criancas = clampInt($('#criancas').value, 0, 150);
+
+        const total = homens + mulheres + criancas;
+        const equivalentes = homens + mulheres + criancas * 0.5;
+        const carne = homens * CONSUMO.homem + mulheres * CONSUMO.mulher + criancas * CONSUMO.crianca;
+        const carvao = carne / KG_CARNE_POR_KG_CARVAO;
+        const sacos = Math.ceil(carvao / 10);
+
+        let equipe = '1 Churrasqueiro';
+        if (total > 70) equipe = 'Equipe Completa';
+        else if (total > 35) equipe = '1 Churrasqueiro + 1 Auxiliar';
+
+        resultado = { homens, mulheres, criancas, total, equivalentes, carne, carvao, sacos, equipe };
+
+        $('#resTotal').textContent = total;
+        $('#resEquiv').textContent = fmtAuto(equivalentes);
+        $('#resCarne').textContent = fmt(carne);
+        $('#resCarvao').textContent = fmt(carvao);
+        $('#resSacos').textContent = carvao > 0 ? `≈ ${sacos} ${sacos === 1 ? 'saco' : 'sacos'} de 10kg` : '—';
+        $('#resEquipe').textContent = equipe;
+        if (total > 0) convErro.classList.add('hidden');
+      }
+
+      const nomeErro = $('#nomeErro');
+      inputNome.addEventListener('input', () => {
+        if (inputNome.value.trim()) {
+          nomeErro.classList.add('hidden');
+          inputNome.classList.remove('border-red-500');
+        }
+      });
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        calcular();
+
+        const nome = inputNome.value.trim();
+        if (!nome) {
+          nomeErro.classList.remove('hidden');
+          inputNome.classList.add('border-red-500');
+          inputNome.focus();
+          return;
+        }
+        if (resultado.total === 0) {
+          convErro.classList.remove('hidden');
+          return;
+        }
+
+        const local = inputLocal.value.trim() || 'A definir';
+        let dataTxt = 'A definir';
+        if (inputData.value) {
+          const [a, m, d] = inputData.value.split('-');
+          dataTxt = `${d}/${m}/${a}`;
+        }
+        const pacote = getModalidade() === 'pacote_completo';
+        const modalidade = pacote ? `Pacote Completo (${selectCardapio.value})` : 'Apenas Mão de Obra';
+
+        const linhas = [
+          `Olá, Silvio! 🔥 Fiz a simulação no site e gostaria de receber o orçamento:`,
+          ``,
+          `• *Nome:* ${nome}`,
+          `• *Local:* ${local}`,
+          `• *Data:* ${dataTxt}`,
+          `• *Modalidade:* ${modalidade}`,
+          `• *Convidados:* ${resultado.total} pessoas (${resultado.homens}H, ${resultado.mulheres}M, ${resultado.criancas}C)`,
+          `• *Estimativa:* ${fmt(resultado.carne)}kg de carne | ${fmt(resultado.carvao)}kg de carvão | ${resultado.equipe}`
+        ];
+
+        window.open(waLink(linhas.join('\n')), '_blank', 'noopener');
+      });
+
+      toggleCardapio();
+      calcular();
+    });
+  </script>
+</body>
+</html>
